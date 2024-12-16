@@ -863,7 +863,7 @@ header{
     margin-bottom: 40px;
 }
     .header-btns {
-        margin-top: 20px;
+        margin-top: 0px;
         padding: 0;
         width: 100%;
         display: flex;
