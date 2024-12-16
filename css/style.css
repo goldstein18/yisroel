@@ -868,7 +868,7 @@ header{
         width: 100%;
         display: flex;
         font-size: 14px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .header-btns button {
