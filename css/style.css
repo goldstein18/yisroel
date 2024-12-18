@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Work Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
    
 }
 
@@ -233,6 +235,7 @@ span {
     padding-bottom: 30px;
     width: 280px;
     height: 300px;
+    border-radius: 20px;
 }
 
 .course-grid h4 {
@@ -308,6 +311,7 @@ span {
 .hero-img img {
     height: 450px;
     width: 650px;
+    border-radius: 20px;
 
 }
 
@@ -378,6 +382,8 @@ span {
 
 .author-profiles img {
     margin-bottom: 20px;
+  
+ 
 }
 
 .author-profiles img,
@@ -401,16 +407,20 @@ h2 {
 /* community */
 .community-section {
     width: 100%;
-    background-image: url("../img/two.jpg");
+    background-image: url("/img/conference2.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 50px;
-
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-position: 0px -600px; /* Moves the background image */
+
+    overflow: hidden; /* Add this */
+   
 }
 
 .community-section::after {
@@ -420,7 +430,6 @@ h2 {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.75);
-    background: white;
     position: absolute;
 
 }
@@ -498,6 +507,21 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    width: 80%;
+ 
+    margin: 0 auto;
+   
+}
+
+.founder video {
+    width: 50%;
+
+}
+
+.founder .ttest {
+ 
+    width: 50%;
+
 }
 
 
@@ -512,7 +536,16 @@ footer {
     height: 300px;
     border-bottom: 1px solid rgb(255, 255, 255);
     background: rgba(34, 34, 34, 0.641);
-    background: white;
+    background: black;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+  
+}
+a, button {
+border-radius: 20px;
+}
+video {
+    border-radius: 20px !important;
 }
 
 footer div {
@@ -766,6 +799,11 @@ footer img {
         width: 100%;
         height: auto;
     }
+    .hero-vid {
+    
+        margin-top:50px;
+        width: 90%;
+    }
 
     .courses-grid {
         width: 100%;
@@ -796,6 +834,30 @@ footer img {
         gap: 50px;
         flex-direction: column;
     }
+    .founder {
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+       
+    }
+    
+    .founder video {
+        width: 100%;
+       
+    }
+    
+    .founder .ttest {
+     
+        width: 100%;
+   
+    
+    }
 
     footer img {
         height: 40px;
@@ -818,19 +880,38 @@ footer img {
     .author-title h1 {
         font-size: 30px;
     }
+    .community-section {
+        width: 100%;
+        background-image: url("/img/conference2.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-position: 0px -10px; /* Moves the background image */
+        border-radius: 0;
+       
+    }
+    .community-section span {
+        color:white !important;
+    }
 
     .community h1 {
         font-size: 20px;
         margin: 10px 0px;
         margin-bottom: 10px;
         margin-bottom: 20px;
-        font-family: 'Spline Sans', sans-serif;
+       
     }
 
     .community p {
         margin: 20px 0px;
         font-size: 14px;
-        font-family: 'Prata', serif;
+       
     }
 
     .subscription h1,
@@ -915,7 +996,8 @@ header{
 
 
 * {
-    font-family: "Roboto", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
