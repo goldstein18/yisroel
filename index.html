@@ -310,7 +310,7 @@ outline: unset !important; color:rgba(255, 255, 255, 0.327); font-family:inherit
             <h2>Menu</h2>
             <div></div>
                 <div></div>
-                <div><a style="color:inherit; text-decoration:none;"href="" target="_blank">Contact Yisroel</a></div>
+                <div><a style="color:inherit; text-decoration:none;"href="" target="_blank" id="email">Contact Yisroel</a></div>
             
             
 
@@ -336,6 +336,26 @@ function myFunction() {
   alert("");
 }
 </script>
+                <script>
+          const emailButton = document.getElementById("email");
+
+// Add a click event to open the email client
+emailButton.addEventListener("click", function() {
+    // Define the recipient and optionally the subject and body
+    const recipient = "thrive@yisroelbald.com";
+    const subject = "Inquiry";
+    const body = "";
+
+    // Construct the mailto URL
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open the mailto link, which triggers the email client
+    window.location.href = mailtoLink;
+});
+
+
+
+        </script>
 
 
 </body>
