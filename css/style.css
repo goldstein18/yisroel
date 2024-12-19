@@ -44,8 +44,8 @@ button {
 header {
 
     padding: 20px 40px;
-
-
+    padding-bottom:0px;
+    margin-bottom:40px;
 }
 
 .navbar {
@@ -59,6 +59,7 @@ header {
     padding: 20px 40px;
     background-color: var(--bg-clr);
     z-index: 9999;
+    padding-bottom:0;
  
     text-align: center;
 }
@@ -954,7 +955,7 @@ footer img {
         height: 250px;
     }
 header{
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
     .header-btns {
         margin-top: 0px;
