@@ -597,6 +597,11 @@ footer img {
    
 }
 
+.mdesc, .mdesc-button {
+    display: none;
+  
+  }
+
 
 
 /* media query to */
@@ -1027,7 +1032,3 @@ header{
       
 }
 
-.mdesc, .mdesc-button {
-  display: none;
-
-}
