@@ -49,16 +49,18 @@ header {
 }
 
 .navbar {
-    position: fixed;
+    position: static;
     left: 0;
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 40px;
     background-color: var(--bg-clr);
     z-index: 9999;
+ 
+    text-align: center;
 }
 
 header .header-logo img {
@@ -927,6 +929,17 @@ footer img {
         margin-top: 0px;
     }
 
+    .desc, .desc-button {
+        display: none;
+    }
+
+    .mdesc, .mdesc-button {
+        margin-top:20px;
+        width: 90%;
+        text-align: center;
+
+    }
+
 }
 
 
@@ -1000,4 +1013,19 @@ header{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+
+.main-logo-title {
+    
+        font-family: "Pacifico", serif !important;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.mdesc, .mdesc-button {
+  display: none;
+
 }
