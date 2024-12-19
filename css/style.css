@@ -935,6 +935,7 @@ footer img {
     }
 
     .mdesc, .mdesc-button {
+        display: block;
         margin-top:20px;
         width: 90%;
         text-align: center;
